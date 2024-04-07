@@ -22,7 +22,7 @@ Create a workspace
 ```
 mkdir -p project3_ws/src
 ```
-Put ROS package [turtlebot3_project3](turtlebot3_project3) to the `project3_ws/src` directory
+Move the ROS package [turtlebot3_project3](turtlebot3_project3) to the `project3_ws/src` directory
 
 ### Part 1 - A* Visualization
 **User Inputs**
@@ -38,7 +38,7 @@ To run the default config of [astar_sim.py](astar_sim.py), use this command
 python3 astar_sim.py
 ```
 
-The following command represents the the setting of every user input
+The following command represents an example of the setting of every user input
 ```
 python3 astar_sim.py --rpm1 50.0 --rpm2 100.0 --StartNode 200_200 --GoalNode 5750_500 --Ori 30 --rr 50
 ```
