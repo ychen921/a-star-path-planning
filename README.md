@@ -11,7 +11,7 @@ Path planning using A* algorithm and implementation on turtlebot waffle in Gazeb
 - multiprocessing
 - heapq
 - argparse
-/home/ychen921/661/project3/a-star-path-planning/project3_ws/src/turtlebot3_project3/scripts
+
 ## Usage
 ### Part 1 - A* Visualization
 **User Inputs**
