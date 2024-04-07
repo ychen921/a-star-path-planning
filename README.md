@@ -14,7 +14,23 @@ Path planning using A* algorithm and implementation on turtlebot waffle in Gazeb
 
 ## Usage
 ### Part 1 - A* Visualization
+**User Inputs**
+- `--StartNode {x_y coordinate}`: Start point coordinate (default: 500_1000)
+- `--GoalNode {x_y coordinate}`: Goal point coordinate (default: 5750_1000)
+- `--Ori {Degree}`: The orientation of the Robot at the start point (default: 0)
+- `--rpm1 {Wheel’s RPM}`: Left Wheel's RPM (default: 20.0)
+- `--rpm2 {Wheel’s RPM}`: Right Wheel's RPM (default: 40.0)
+- `--rr {clearance}`: Clearance in mm (default: 220)
 
+To run the default config, use this command
+```
+python3 astar_sim.py
+```
+
+The following command represents the the setting of every user input
+```
+python3 astar_sim.py --rpm1 50.0 --rpm2 100.0 --StartNode 200_200 --GoalNode 5750_500 --Ori 30 --rr 50
+```
 
 ### Part 2 - Gazebo Simulation
 Source ROS
@@ -40,5 +56,11 @@ ros2 run turtlebot3_project3 vel_publisher.py
 ```
 To adjust the goal point, use `--GoalNode` to set the point. Here is an example:
 ```
-ros2 run turtlebot3_project3 vel_publisher.py ---GoalNode 5750 500
+ros2 run turtlebot3_project3 vel_publisher.py ---GoalNode 5750_500
 ```
+
+## Demo
+- A* Visualization
+
+- Gazebo Simulation
+- [![](demo2.png)](https://youtu.be/tKGekSLWd3s)
