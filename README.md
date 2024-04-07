@@ -11,7 +11,7 @@ Path planning using A* algorithm and implementation on turtlebot waffle in Gazeb
 - multiprocessing
 - heapq
 - argparse
-
+/home/ychen921/661/project3/a-star-path-planning/project3_ws/src/turtlebot3_project3/scripts
 ## Usage
 ### Part 1 - A* Visualization
 **User Inputs**
@@ -22,7 +22,7 @@ Path planning using A* algorithm and implementation on turtlebot waffle in Gazeb
 - `--rpm2 {Wheel’s RPM}`: Right Wheel's RPM (default: 40.0)
 - `--rr {clearance}`: Clearance in mm (default: 220)
 
-To run the default config, use this command
+To run the default config of [astar_sim.py](astar_sim.py), use this command
 ```
 python3 astar_sim.py
 ```
@@ -49,7 +49,7 @@ Launch Environment
 ros2 launch turtlebot3_project3 competition_world.launch.py
 ```
 
-To run the ROS node, you can use the [vel_publisher.py](/scripts/astar_sim.py) for the following:
+To run the ROS node, you can use the [vel_publisher.py](/project3_ws/src/turtlebot3_project3/scripts/vel_publisher.py) for the following:
 
 ```
 ros2 run turtlebot3_project3 vel_publisher.py
