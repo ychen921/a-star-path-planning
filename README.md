@@ -61,6 +61,6 @@ ros2 run turtlebot3_project3 vel_publisher.py ---GoalNode 5750_500
 
 ## Demo
 - A* Visualization
-
+[![](Figures/demo2.png)](https://youtu.be/kb4CH7fvLws)
 - Gazebo Simulation
-- [![](demo2.png)](https://youtu.be/tKGekSLWd3s)
+[![](Figures/demo1.png)](https://youtu.be/tKGekSLWd3s)
