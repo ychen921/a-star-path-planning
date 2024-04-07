@@ -14,15 +14,15 @@ Path planning using A* algorithm and implementation on turtlebot waffle in Gazeb
 
 ## Usage
 ### Setup
-Create a workspace
-```
-mkdir -p project3_ws/src
-cd ~/project3_ws/src
-```
-Clone the repo to the `/src` directory
+Clone the repo
 ```
 git clone https://github.com/ychen921/a-star-path-planning.git
 ```
+Create a workspace
+```
+mkdir -p project3_ws/src
+```
+Put ROS package [turtlebot3_project3](turtlebot3_project3) to the `project3_ws/src` directory
 
 ### Part 1 - A* Visualization
 **User Inputs**
