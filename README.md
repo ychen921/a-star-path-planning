@@ -13,6 +13,17 @@ Path planning using A* algorithm and implementation on turtlebot waffle in Gazeb
 - argparse
 
 ## Usage
+### Setup
+Create a workspace
+```
+mkdir -p project3_ws/src
+cd ~/project3_ws/src
+```
+Clone the repo to the `/src` directory
+```
+git clone https://github.com/ychen921/a-star-path-planning.git
+```
+
 ### Part 1 - A* Visualization
 **User Inputs**
 - `--StartNode {x_y coordinate}`: Start point coordinate (default: 500_1000)
@@ -33,6 +44,7 @@ python3 astar_sim.py --rpm1 50.0 --rpm2 100.0 --StartNode 200_200 --GoalNode 575
 ```
 
 ### Part 2 - Gazebo Simulation
+
 Source ROS
 ```
 source install/setup.bash
